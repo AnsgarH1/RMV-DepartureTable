@@ -6,7 +6,7 @@
 	
 	
 	$stopExtID = $_GET["stopExtId"];	
-	$baseUrl = "https://www.rmv.de/hapi/departureBoard?accessId=2e275638-45cb-4f79-b647-dcbbfb7a76e2&format=json&extId=";
+	$baseUrl = "https://www.rmv.de/hapi/departureBoard?accessId=INSERTAPIKEYHERE&format=json&extId=";
 	
 	$url = $baseUrl. $stopExtID;
 	
